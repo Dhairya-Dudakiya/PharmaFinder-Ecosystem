@@ -4,7 +4,7 @@ This repository contains the source code for PharmaFinder, a comprehensive, real
 The primary goal of this project was to solve the common challenges in local medicine delivery by building a robust, scalable, and real-time platform that handles everything from inventory management to final-mile delivery tracking.
 
 🎥 Project Demo
-[Link to your 60-90 second demo video on YouTube or LinkedIn]
+[https://www.linkedin.com/posts/dhairya-dudakiya_flutter-firebase-mobileappdevelopment-activity-7365473961968656386-C1Vp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD8KVBQBVHLBRA0c1ngOOriR6QArTcKMxCM]
 
 🏛️ System Architecture
 The ecosystem is built on a centralized Firebase backend, with each Flutter application serving a specific user role. Data flows in real-time between the apps to ensure all parties have the most up-to-date information.
