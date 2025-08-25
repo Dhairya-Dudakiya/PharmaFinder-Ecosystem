@@ -1,0 +1,572 @@
+{
+  "medicines": {
+    "Apollo Pharmacy": {
+      "M001": {
+        "category": "Pain Relief",
+        "description": "Relieves mild to moderate pain and fever.",
+        "dosage": "500mg",
+        "icon": "healing",
+        "id": "M001",
+        "manufacturer": "Cipla",
+        "name": "Paracetamol 500mg",
+        "price": 18.5,
+        "requiresPrescription": false
+      },
+      "M004": {
+        "category": "Pain Relief",
+        "description": "Reduces pain, fever, or inflammation.",
+        "dosage": "75mg",
+        "icon": "healing",
+        "id": "M004",
+        "manufacturer": "Dr. Reddy's",
+        "name": "Aspirin",
+        "price": 20,
+        "requiresPrescription": false
+      },
+      "M006": {
+        "category": "Allergy",
+        "description": "Used for allergy relief and hay fever.",
+        "dosage": "10mg",
+        "icon": "sick",
+        "id": "M006",
+        "manufacturer": "Cipla",
+        "name": "Cetirizine",
+        "price": 15,
+        "requiresPrescription": false
+      },
+      "M008": {
+        "category": "Allergy",
+        "description": "Antihistamine used to treat seasonal allergies.",
+        "dosage": "180mg",
+        "icon": "sick",
+        "id": "M008",
+        "manufacturer": "Sun Pharma",
+        "name": "Fexofenadine",
+        "price": 35,
+        "requiresPrescription": true
+      },
+      "M011": {
+        "category": "Cold & Flu",
+        "description": "For cold, cough, and fever relief.",
+        "dosage": "Tablet",
+        "icon": "thermostat",
+        "id": "M011",
+        "manufacturer": "Micro Labs",
+        "name": "Dolo Cold",
+        "price": 22,
+        "requiresPrescription": false
+      },
+      "M017": {
+        "category": "Digestive",
+        "description": "Used for acidity, indigestion and reflux.",
+        "dosage": "40mg",
+        "icon": "medical_services",
+        "id": "M017",
+        "manufacturer": "Alkem",
+        "name": "Pan D",
+        "price": 30,
+        "requiresPrescription": true
+      }
+    },
+    "Medplus": {
+      "M002": {
+        "category": "Pain Relief",
+        "description": "Used for pain relief, inflammation, and fever.",
+        "dosage": "400mg",
+        "icon": "healing",
+        "id": "M002",
+        "manufacturer": "Sun Pharma",
+        "name": "Ibuprofen 400mg",
+        "price": 25,
+        "requiresPrescription": false
+      },
+      "M005": {
+        "category": "Pain Relief",
+        "description": "Effective for treating inflammation and pain.",
+        "dosage": "250mg",
+        "icon": "healing",
+        "id": "M005",
+        "manufacturer": "Torrent",
+        "name": "Naproxen",
+        "price": 40,
+        "requiresPrescription": true
+      },
+      "M007": {
+        "category": "Allergy",
+        "description": "Reduces allergy symptoms like sneezing and itching.",
+        "dosage": "10mg",
+        "icon": "sick",
+        "id": "M007",
+        "manufacturer": "GSK",
+        "name": "Loratadine",
+        "price": 20,
+        "requiresPrescription": false
+      },
+      "M012": {
+        "category": "Cold & Flu",
+        "description": "Relieves symptoms of cold and flu.",
+        "dosage": "500mg",
+        "icon": "thermostat",
+        "id": "M012",
+        "manufacturer": "Procter & Gamble",
+        "name": "Vicks Action 500",
+        "price": 16,
+        "requiresPrescription": false
+      },
+      "M015": {
+        "category": "Cold & Flu",
+        "description": "Provides vitamin C and zinc for immunity.",
+        "dosage": "Tablet",
+        "icon": "thermostat",
+        "id": "M015",
+        "manufacturer": "Apex",
+        "name": "Zincovit-C",
+        "price": 12,
+        "requiresPrescription": false
+      },
+      "M021": {
+        "category": "Pain Relief",
+        "description": "Treats nerve pain and seizures.",
+        "dosage": "75mg",
+        "icon": "healing",
+        "id": "M021",
+        "manufacturer": "Pfizer",
+        "name": "Pregabalin",
+        "price": 65,
+        "requiresPrescription": true
+      }
+    },
+    "Netmeds": {
+      "M003": {
+        "category": "Pain Relief",
+        "description": "Non-steroidal anti-inflammatory drug (NSAID).",
+        "dosage": "50mg",
+        "icon": "healing",
+        "id": "M003",
+        "manufacturer": "Zydus",
+        "name": "Diclofenac",
+        "price": 32,
+        "requiresPrescription": true
+      },
+      "M009": {
+        "category": "Allergy",
+        "description": "Used for allergic rhinitis and urticaria.",
+        "dosage": "5mg",
+        "icon": "sick",
+        "id": "M009",
+        "manufacturer": "Alkem",
+        "name": "Levocetirizine",
+        "price": 18,
+        "requiresPrescription": false
+      },
+      "M014": {
+        "category": "Cold & Flu",
+        "description": "Effective in treating common cold symptoms.",
+        "dosage": "500mg",
+        "icon": "thermostat",
+        "id": "M014",
+        "manufacturer": "GSK",
+        "name": "Crocin Cold & Flu",
+        "price": 20,
+        "requiresPrescription": false
+      },
+      "M018": {
+        "category": "Digestive",
+        "description": "Used to treat heartburn and upset stomach.",
+        "dosage": "Tablet",
+        "icon": "medical_services",
+        "id": "M018",
+        "manufacturer": "Pfizer",
+        "name": "Gelusil",
+        "price": 18,
+        "requiresPrescription": false
+      },
+      "M024": {
+        "category": "Allergy",
+        "description": "Antihistamine with sedative effects.",
+        "dosage": "25mg",
+        "icon": "sick",
+        "id": "M024",
+        "manufacturer": "Abbott",
+        "name": "Diphenhydramine",
+        "price": 12,
+        "requiresPrescription": false
+      },
+      "M027": {
+        "category": "Digestive",
+        "description": "Used to treat constipation.",
+        "dosage": "Tablet",
+        "icon": "medical_services",
+        "id": "M027",
+        "manufacturer": "Abbott",
+        "name": "Lactulose",
+        "price": 40,
+        "requiresPrescription": false
+      }
+    },
+    "Wellness Forever": {
+      "M010": {
+        "category": "Allergy",
+        "description": "Relieves runny nose and sneezing.",
+        "dosage": "4mg",
+        "icon": "sick",
+        "id": "M010",
+        "manufacturer": "Zydus",
+        "name": "Chlorpheniramine",
+        "price": 10,
+        "requiresPrescription": false
+      },
+      "M016": {
+        "category": "Digestive",
+        "description": "Antacid for relief from indigestion and gas.",
+        "dosage": "Tablet",
+        "icon": "medical_services",
+        "id": "M016",
+        "manufacturer": "Abbott",
+        "name": "Digene",
+        "price": 15,
+        "requiresPrescription": false
+      },
+      "M020": {
+        "category": "Digestive",
+        "description": "Used for stomach cramps and IBS.",
+        "dosage": "Tablet",
+        "icon": "medical_services",
+        "id": "M020",
+        "manufacturer": "Torrent",
+        "name": "Normaxin",
+        "price": 22,
+        "requiresPrescription": false
+      },
+      "M022": {
+        "category": "Pain Relief",
+        "description": "Opioid pain medication for severe pain.",
+        "dosage": "10mg",
+        "icon": "healing",
+        "id": "M022",
+        "manufacturer": "Cipla",
+        "name": "Tramadol",
+        "price": 50,
+        "requiresPrescription": true
+      },
+      "M026": {
+        "category": "Cold & Flu",
+        "description": "Relieves cold and sinus congestion.",
+        "dosage": "Tablet",
+        "icon": "thermostat",
+        "id": "M026",
+        "manufacturer": "GSK",
+        "name": "Sudafed",
+        "price": 28,
+        "requiresPrescription": false
+      }
+    },
+    "Guardian Pharmacy": {
+      "M013": {
+        "category": "Cold & Flu",
+        "description": "Used to relieve multiple cold symptoms.",
+        "dosage": "Tablet",
+        "icon": "thermostat",
+        "id": "M013",
+        "manufacturer": "Centaur",
+        "name": "Sinarest",
+        "price": 18,
+        "requiresPrescription": false
+      },
+      "M019": {
+        "category": "Digestive",
+        "description": "Reduces acid secretion in the stomach.",
+        "dosage": "20mg",
+        "icon": "medical_services",
+        "id": "M019",
+        "manufacturer": "Dr. Reddy's",
+        "name": "Omez",
+        "price": 25,
+        "requiresPrescription": true
+      },
+      "M023": {
+        "category": "Allergy",
+        "description": "Prevents allergic asthma symptoms.",
+        "dosage": "10mg",
+        "icon": "sick",
+        "id": "M023",
+        "manufacturer": "MSN Labs",
+        "name": "Montelukast",
+        "price": 22,
+        "requiresPrescription": true
+      },
+      "M025": {
+        "category": "Cold & Flu",
+        "description": "Nasal decongestant for blocked nose.",
+        "dosage": "0.05%",
+        "icon": "thermostat",
+        "id": "M025",
+        "manufacturer": "Zydus",
+        "name": "Oxymetazoline Nasal Spray",
+        "price": 35,
+        "requiresPrescription": false
+      },
+      "M029": {
+        "category": "Antibiotic",
+        "description": "Broad-spectrum antibiotic for infections.",
+        "dosage": "500mg",
+        "icon": "coronavirus",
+        "id": "M029",
+        "manufacturer": "Pfizer",
+        "name": "Amoxicillin",
+        "price": 60,
+        "requiresPrescription": true
+      },
+      "M033": {
+        "category": "Skin Care",
+        "description": "Used for acne treatment.",
+        "dosage": "5% w/w",
+        "icon": "science",
+        "id": "M033",
+        "manufacturer": "GSK",
+        "name": "Benzoyl Peroxide Gel",
+        "price": 45,
+        "requiresPrescription": false
+      }
+    },
+    "Pharmeasy": {
+      "M028": {
+        "category": "Digestive",
+        "description": "Treats nausea and vomiting.",
+        "dosage": "10mg",
+        "icon": "medical_services",
+        "id": "M028",
+        "manufacturer": "Sun Pharma",
+        "name": "Domperidone",
+        "price": 25,
+        "requiresPrescription": true
+      },
+      "M030": {
+        "category": "Antibiotic",
+        "description": "Used to treat respiratory and skin infections.",
+        "dosage": "250mg",
+        "icon": "coronavirus",
+        "id": "M030",
+        "manufacturer": "Cipla",
+        "name": "Azithromycin",
+        "price": 80,
+        "requiresPrescription": true
+      },
+      "M032": {
+        "category": "Skin Care",
+        "description": "Topical cream for fungal skin infections.",
+        "dosage": "1% w/w",
+        "icon": "science",
+        "id": "M032",
+        "manufacturer": "Glenmark",
+        "name": "Clotrimazole Cream",
+        "price": 30,
+        "requiresPrescription": false
+      },
+      "M034": {
+        "category": "Vitamins",
+        "description": "Multivitamin for daily nutritional support.",
+        "dosage": "Tablet",
+        "icon": "emoji_nature",
+        "id": "M034",
+        "manufacturer": "Apex",
+        "name": "Becosules",
+        "price": 25,
+        "requiresPrescription": false
+      },
+      "M036": {
+        "category": "Diabetes",
+        "description": "Controls blood sugar levels.",
+        "dosage": "500mg",
+        "icon": "bloodtype",
+        "id": "M036",
+        "manufacturer": "USV",
+        "name": "Metformin",
+        "price": 28,
+        "requiresPrescription": true
+      },
+      "M038": {
+        "category": "Blood Pressure",
+        "description": "Lowers high blood pressure.",
+        "dosage": "50mg",
+        "icon": "monitor_heart",
+        "id": "M038",
+        "manufacturer": "Torrent",
+        "name": "Losartan",
+        "price": 25,
+        "requiresPrescription": true
+      }
+    },
+    "Dawaa Dost": {
+      "M031": {
+        "category": "Antibiotic",
+        "description": "Fights bacterial infections in the body.",
+        "dosage": "500mg",
+        "icon": "coronavirus",
+        "id": "M031",
+        "manufacturer": "Dr. Reddy's",
+        "name": "Cefixime",
+        "price": 100,
+        "requiresPrescription": true
+      },
+      "M035": {
+        "category": "Vitamins",
+        "description": "Supplement with iron and folic acid.",
+        "dosage": "Tablet",
+        "icon": "emoji_nature",
+        "id": "M035",
+        "manufacturer": "Sun Pharma",
+        "name": "Dexorange",
+        "price": 30,
+        "requiresPrescription": false
+      },
+      "M037": {
+        "category": "Diabetes",
+        "description": "Used to treat Type 2 diabetes.",
+        "dosage": "100mg",
+        "icon": "bloodtype",
+        "id": "M037",
+        "manufacturer": "Dr. Reddy's",
+        "name": "Sitagliptin",
+        "price": 90,
+        "requiresPrescription": true
+      },
+      "M039": {
+        "category": "Blood Pressure",
+        "description": "Controls blood pressure and reduces risk of stroke.",
+        "dosage": "5mg",
+        "icon": "monitor_heart",
+        "id": "M039",
+        "manufacturer": "Zydus",
+        "name": "Amlodipine",
+        "price": 18,
+        "requiresPrescription": true
+      },
+      "M041": {
+        "category": "Mental Health",
+        "description": "Prescribed for schizophrenia and bipolar disorder.",
+        "dosage": "2mg",
+        "icon": "psychology",
+        "id": "M041",
+        "manufacturer": "Sun Pharma",
+        "name": "Risperidone",
+        "price": 55,
+        "requiresPrescription": true
+      }
+    },
+    "Sahara Medicals": {
+      "M040": {
+        "category": "Mental Health",
+        "description": "Used to treat depression and anxiety.",
+        "dosage": "10mg",
+        "icon": "psychology",
+        "id": "M040",
+        "manufacturer": "Abbott",
+        "name": "Escitalopram",
+        "price": 45,
+        "requiresPrescription": true
+      },
+      "M042": {
+        "category": "First Aid",
+        "description": "Antiseptic for cuts and wounds.",
+        "dosage": "Liquid",
+        "icon": "medication_liquid",
+        "id": "M042",
+        "manufacturer": "Dettol",
+        "name": "Dettol Antiseptic",
+        "price": 35,
+        "requiresPrescription": false
+      },
+      "M045": {
+        "category": "Eye Care",
+        "description": "Used for eye dryness and irritation.",
+        "dosage": "10ml",
+        "icon": "visibility",
+        "id": "M045",
+        "manufacturer": "Allergan",
+        "name": "Refresh Tears",
+        "price": 65,
+        "requiresPrescription": false
+      },
+      "M047": {
+        "category": "Heart Health",
+        "description": "Lowers cholesterol and prevents heart disease.",
+        "dosage": "10mg",
+        "icon": "favorite",
+        "id": "M047",
+        "manufacturer": "USV",
+        "name": "Atorvastatin",
+        "price": 40,
+        "requiresPrescription": true
+      },
+      "M049": {
+        "category": "Women's Health",
+        "description": "Used to treat iron deficiency anemia.",
+        "dosage": "Tablet",
+        "icon": "female",
+        "id": "M049",
+        "manufacturer": "Alkem",
+        "name": "Fefol",
+        "price": 20,
+        "requiresPrescription": false
+      }
+    },
+    "Healthkart Pharmacy": {
+      "M043": {
+        "category": "First Aid",
+        "description": "Pain relief and anti-inflammatory gel.",
+        "dosage": "30g",
+        "icon": "medication_liquid",
+        "id": "M043",
+        "manufacturer": "Reckitt",
+        "name": "Moov Gel",
+        "price": 38,
+        "requiresPrescription": false
+      },
+      "M044": {
+        "category": "First Aid",
+        "description": "Used for oral pain relief.",
+        "dosage": "15ml",
+        "icon": "medication_liquid",
+        "id": "M044",
+        "manufacturer": "Iodex",
+        "name": "Iodex Balm",
+        "price": 20,
+        "requiresPrescription": false
+      },
+      "M046": {
+        "category": "Eye Care",
+        "description": "Antibiotic eye drops.",
+        "dosage": "5ml",
+        "icon": "visibility",
+        "id": "M046",
+        "manufacturer": "Alcon",
+        "name": "Tobramycin",
+        "price": 72,
+        "requiresPrescription": true
+      },
+      "M048": {
+        "category": "Heart Health",
+        "description": "Blood thinner to prevent strokes.",
+        "dosage": "75mg",
+        "icon": "favorite",
+        "id": "M048",
+        "manufacturer": "Torrent",
+        "name": "Clopidogrel",
+        "price": 45,
+        "requiresPrescription": true
+      },
+      "M050": {
+        "category": "Women's Health",
+        "description": "Birth control pill.",
+        "dosage": "0.15mg/0.03mg",
+        "icon": "female",
+        "id": "M050",
+        "manufacturer": "Bayer",
+        "name": "Yasmin",
+        "price": 150,
+        "requiresPrescription": true
+      }
+    }
+  }
+}

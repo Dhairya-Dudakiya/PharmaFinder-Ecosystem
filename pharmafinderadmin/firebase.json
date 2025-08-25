@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pharmafinder-61392",
+          "appId": "1:889325653254:android:47f8db54432289a2a92287",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pharmafinder-61392",
+          "configurations": {
+            "android": "1:889325653254:android:47f8db54432289a2a92287",
+            "ios": "1:889325653254:ios:e4f40159408fc8a2a92287",
+            "web": "1:889325653254:web:0876c6a05e30f427a92287",
+            "windows": "1:889325653254:web:cff73d401a457708a92287"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

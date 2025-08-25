@@ -1,0 +1,57 @@
+name: pharmafinder
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  cloud_firestore: ^6.0.0
+  google_fonts: ^6.2.1
+  provider: ^6.1.5
+  intl_phone_number_input: ^0.7.4
+  flutter_svg: ^2.0.10
+  shimmer: ^3.0.0
+  firebase_storage: ^13.0.0
+  lottie: ^3.3.1
+  firebase_database: ^12.0.0
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  intl: ^0.20.2
+  google_maps_flutter: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/Logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/icon/Logo.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Regular.ttf
+        - asset: lib/assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: lib/assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: lib/assets/fonts/Poppins-Bold.ttf
+          weight: 700

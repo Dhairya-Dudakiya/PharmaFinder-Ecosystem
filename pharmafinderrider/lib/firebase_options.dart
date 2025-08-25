@@ -1,0 +1,88 @@
+import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
+import 'package:flutter/foundation.dart'
+    show defaultTargetPlatform, kIsWeb, TargetPlatform;
+
+/// Default [FirebaseOptions] for use with your Firebase apps.
+///
+/// Example:
+/// ```dart
+/// import 'firebase_options.dart';
+/// // ...
+/// await Firebase.initializeApp(
+///   options: DefaultFirebaseOptions.currentPlatform,
+/// );
+/// ```
+class DefaultFirebaseOptions {
+  static FirebaseOptions get currentPlatform {
+    if (kIsWeb) {
+      return web;
+    }
+    switch (defaultTargetPlatform) {
+      case TargetPlatform.android:
+        return android;
+      case TargetPlatform.iOS:
+        return ios;
+      case TargetPlatform.macOS:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      case TargetPlatform.windows:
+        return windows;
+      case TargetPlatform.linux:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for linux - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      default:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions are not supported for this platform.',
+        );
+    }
+  }
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyAWBCDv522nI5TeMy-_9pnucQlV3E0wJrM',
+    appId: '1:889325653254:web:0876c6a05e30f427a92287',
+    messagingSenderId: '889325653254',
+    projectId: 'pharmafinder-61392',
+    authDomain: 'pharmafinder-61392.firebaseapp.com',
+    databaseURL:
+        'https://pharmafinder-61392-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'pharmafinder-61392.firebasestorage.app',
+    measurementId: 'G-NJPDJWRZ7T',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyAIvyGfVcr_ZlXENHoqBbUR-oWXufj149A',
+    appId: '1:889325653254:android:508f56441fbfa756a92287',
+    messagingSenderId: '889325653254',
+    projectId: 'pharmafinder-61392',
+    databaseURL:
+        'https://pharmafinder-61392-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'pharmafinder-61392.firebasestorage.app',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyDjyWB4poL1icHzK3MP2EYJkYkMVyM2eBQ',
+    appId: '1:889325653254:ios:3aa0a3db76000c5aa92287',
+    messagingSenderId: '889325653254',
+    projectId: 'pharmafinder-61392',
+    databaseURL:
+        'https://pharmafinder-61392-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'pharmafinder-61392.firebasestorage.app',
+    iosBundleId: 'com.example.pharmafinderrider',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyAWBCDv522nI5TeMy-_9pnucQlV3E0wJrM',
+    appId: '1:889325653254:web:e4eda8fad41359bca92287',
+    messagingSenderId: '889325653254',
+    projectId: 'pharmafinder-61392',
+    authDomain: 'pharmafinder-61392.firebaseapp.com',
+    databaseURL:
+        'https://pharmafinder-61392-default-rtdb.asia-southeast1.firebasedatabase.app',
+    storageBucket: 'pharmafinder-61392.firebasestorage.app',
+    measurementId: 'G-V5Z5MJVD93',
+  );
+}

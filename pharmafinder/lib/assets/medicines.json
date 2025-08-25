@@ -1,0 +1,148 @@
+{
+  "medicines": [
+    {
+      "id": "M001",
+      "name": "Paracetamol 500mg",
+      "company": "Cipla",
+      "category": "Pain Relief",
+      "price": 18.5,
+      "stock": 120,
+      "description": "Used for mild to moderate pain relief and fever reduction."
+    },
+    {
+      "id": "M002",
+      "name": "Dolo 650",
+      "company": "Micro Labs",
+      "category": "Pain Relief",
+      "price": 22.0,
+      "stock": 75,
+      "description": "Effective for fever and body pain, contains paracetamol."
+    },
+    {
+      "id": "M003",
+      "name": "Crocin Cold & Flu Max",
+      "company": "GSK",
+      "category": "Cold & Flu",
+      "price": 35.0,
+      "stock": 60,
+      "description": "Combination medicine for cold, flu, and fever."
+    },
+    {
+      "id": "M004",
+      "name": "Sinarest",
+      "company": "Centaur Pharmaceuticals",
+      "category": "Cold & Flu",
+      "price": 40.0,
+      "stock": 100,
+      "description": "Used for relief from cold, sneezing, and fever."
+    },
+    {
+      "id": "M005",
+      "name": "Cetirizine 10mg",
+      "company": "Dr. Reddy's",
+      "category": "Allergy",
+      "price": 12.0,
+      "stock": 200,
+      "description": "Antihistamine used for allergic reactions and hay fever."
+    },
+    {
+      "id": "M006",
+      "name": "Allegra 120mg",
+      "company": "Sanofi",
+      "category": "Allergy",
+      "price": 85.0,
+      "stock": 50,
+      "description": "Effective non-drowsy antihistamine for allergies."
+    },
+    {
+      "id": "M007",
+      "name": "Digene Gel Mint",
+      "company": "Abbott",
+      "category": "Digestive",
+      "price": 25.0,
+      "stock": 90,
+      "description": "Used to relieve indigestion, heartburn, and gas."
+    },
+    {
+      "id": "M008",
+      "name": "Omez 20mg",
+      "company": "Dr. Reddy's",
+      "category": "Digestive",
+      "price": 28.0,
+      "stock": 100,
+      "description": "Reduces stomach acid, treats ulcers and reflux."
+    },
+    {
+      "id": "M009",
+      "name": "Revital H",
+      "company": "Sun Pharma",
+      "category": "Vitamins",
+      "price": 120.0,
+      "stock": 30,
+      "description": "Multivitamin supplement with Ginseng and minerals."
+    },
+    {
+      "id": "M010",
+      "name": "Zincovit",
+      "company": "Apex Laboratories",
+      "category": "Vitamins",
+      "price": 95.0,
+      "stock": 45,
+      "description": "Zinc and multivitamin supplement for immunity."
+    },
+    {
+      "id": "M011",
+      "name": "Dettol Antiseptic Liquid",
+      "company": "Reckitt",
+      "category": "First Aid",
+      "price": 65.0,
+      "stock": 150,
+      "description": "Used for first aid, wound cleaning, and disinfection."
+    },
+    {
+      "id": "M012",
+      "name": "Band Aid",
+      "company": "Johnson & Johnson",
+      "category": "First Aid",
+      "price": 40.0,
+      "stock": 300,
+      "description": "Adhesive bandage for small cuts and wounds."
+    },
+    {
+      "id": "M013",
+      "name": "Himalaya Purifying Neem Face Wash",
+      "company": "Himalaya",
+      "category": "Skin Care",
+      "price": 80.0,
+      "stock": 90,
+      "description": "Cleanses skin and prevents pimples with neem extract."
+    },
+    {
+      "id": "M014",
+      "name": "Lacto Calamine Lotion",
+      "company": "Piramal Healthcare",
+      "category": "Skin Care",
+      "price": 110.0,
+      "stock": 60,
+      "description": "Oil control and acne prevention lotion."
+    },
+    {
+      "id": "M015",
+      "name": "Tears Naturale Eye Drops",
+      "company": "Alcon",
+      "category": "Eye Care",
+      "price": 55.0,
+      "stock": 70,
+      "description": "Lubricating eye drops for dry eyes."
+    },
+    {
+      "id": "M016",
+      "name": "Itone Eye Drops",
+      "company": "Ajanta Pharma",
+      "category": "Eye Care",
+      "price": 35.0,
+      "stock": 80,
+      "description": "Herbal eye drops for eye health and cooling effect."
+    }
+  ]
+}
